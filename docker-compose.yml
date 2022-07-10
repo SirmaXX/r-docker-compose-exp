@@ -1,0 +1,13 @@
+version: "3.7"
+
+services:
+  deneme:
+    build: ./deneme
+    restart: always
+    ports:
+      - "8881:3838"
+  deneme1:
+    build: ./deneme1
+    restart: always
+    ports:
+      - "8888:3838"
